@@ -8,11 +8,14 @@ ejemplo:
 int main(){
 
   char text[200];
+  
   write(text,"Esto es una frase");
+  
   write(text,"Esto es una frase 2");
   
 
   printf("%s", read(text,0);
+  
   return 0;
   
 }
